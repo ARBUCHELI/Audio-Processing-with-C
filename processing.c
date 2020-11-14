@@ -1,8 +1,8 @@
 // Modifies the volume of an audio file
 
-#include <stdint.h>
-#include <stdio.h>
-#include <stdlib.h>
+#include <stdint.h> //Library used for declaring special types of ints.
+#include <stdio.h> //Standard input and outpu library 
+#include <stdlib.h> //Standard library
 
 // Number of bytes in .wav header
 const int HEADER_SIZE = 44; //The header is always 44 bytes long.
